@@ -1,2 +1,4 @@
 body {width: 2000px;}
-header.pageheader {background-color: blue;}
+header.pageheader 
+{background-color: blue;
+color: yellow;}
