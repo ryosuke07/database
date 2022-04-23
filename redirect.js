@@ -1,11 +1,6 @@
-setTimeout("confirm()",10000);
-
-var result = confirm(
-  'FANZAに遷移しますか？'
-  );
+var result = confirm('FANZAに遷移しますか？');
 
 if (result){
-  function redirect(){
   location.href="https://www.dmm.co.jp";
   }
   
