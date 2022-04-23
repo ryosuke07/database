@@ -5,5 +5,5 @@ if (result){
   }
   
 else {
-  console.log('遷移しませんでした');
+  window.alert('遷移しませんでした');
   }
