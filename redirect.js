@@ -1,10 +1,14 @@
-setTimeout("alert()",10000);
+setTimeout("confirm()",10000);
 
-function alert(){
-  'FANZAに遷移しますか？'<input type="submit" value="遷移する" >;
-  }
+var result = confirm(
+  'FANZAに遷移しますか？'
+  );
 
-onClick=function redirect(){
+if (result){
+  function redirect(){
   location.href="https://www.dmm.co.jp";
   }
   
+else (){
+  console.log('遷移しませんでした');
+  }
