@@ -1,9 +1,9 @@
-var result = confirm('FANZAに遷移しますか？');
+var result = window.confirm('FANZAに遷移しますか？');
 
 if (result){
   location.href="https://www.dmm.co.jp";
   }
   
-else (){
+else {
   console.log('遷移しませんでした');
   }
