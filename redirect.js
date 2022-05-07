@@ -5,5 +5,5 @@ if (result){
   }
   
 else {
-  window.alert('遷移しませんでした');
+  ;
   }
