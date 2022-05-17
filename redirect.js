@@ -1,7 +1,7 @@
-var result = window.confirm('FANZAに遷移しますか？');
+var result = window.confirm('googleに遷移しますか？');
 
 if (result){
-  location.href="https://www.dmm.co.jp";
+  location.href="https://www.google.co.jp";
   }
   
 else {
